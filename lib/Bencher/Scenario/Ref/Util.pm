@@ -1,11 +1,13 @@
-package Bencher::Scenario::RefUtil;
-
-# DATE
-# VERSION
+package Bencher::Scenario::Ref::Util;
 
 use 5.010001;
 use strict;
 use warnings;
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 our $scenario = {
     summary => 'Benchmark Ref::Util',
@@ -35,11 +37,5 @@ our $scenario = {
 
 1;
 # ABSTRACT:
-
-=head1 BENCHMARK NOTES
-
-I'm not seeing significant performance difference between C<ref() eq "ARRAY">
-and C<is_arrayref()> on my perls. Am I doing something wrong?
-
 
 =head1 SEE ALSO
